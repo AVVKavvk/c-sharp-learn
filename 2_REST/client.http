@@ -1,0 +1,35 @@
+GET http://localhost:5019/users
+
+
+###
+
+GET http://localhost:5019/users/1
+
+
+###
+POST http://localhost:5019/users
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "Vipin",
+  "email": "vipin@gmail.com",
+  "age": 22
+}
+
+
+
+###
+PUT http://localhost:5019/users/4
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name": "Vipin Kumawat",
+  "email": "vipin@gmail.com",
+  "age": 22
+}
+
+
+### 
+DELETE http://localhost:5019/users/4
