@@ -1,0 +1,9 @@
+.env
+.env.local
+
+**.log
+
+logs/
+
+tmp/
+temp/
