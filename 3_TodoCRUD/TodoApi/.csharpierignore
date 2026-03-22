@@ -1,0 +1,4 @@
+# Ignore migrations
+Migrations/
+# Ignore specific files
+Temp.cs
